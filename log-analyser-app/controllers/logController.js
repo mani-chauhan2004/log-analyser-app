@@ -62,7 +62,7 @@ const searchLogs = async (req, res) => {
 
     // Build Elasticsearch query
     try {
-        const { type, keyword, startDate, endDate, sortBy, sortOrder} = req.query;
+        const { type, keyword, source, startDate, endDate, sortBy, sortOrder} = req.query;
 
         const query = {
             bool: {
@@ -73,7 +73,8 @@ const searchLogs = async (req, res) => {
 
         // Match log type
         if (type) query.bool.must.push({ match: { type } });
-
+        if (source) query.bool.must.push({ match: { source } });
+        
         // Match keyword in log message
         if (keyword) query.bool.must.push({ match: { message: keyword } });
 

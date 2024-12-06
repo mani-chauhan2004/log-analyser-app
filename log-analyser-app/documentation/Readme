@@ -46,6 +46,7 @@ API Refrence
                     endDate   |     optional     |     Filter logs up to this date.
                     sortBy    |     optional     |     Field to sort by (e.g., timestamp).
                     sortOrder |     optional     |     asc or desc.
+                    source    |     optional     |     Filers logs from this source
 
                 ->Response: 
                     {
