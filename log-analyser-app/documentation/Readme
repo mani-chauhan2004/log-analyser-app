@@ -109,11 +109,13 @@ Future Improvements
 
     1.Frontend Integration
         Designing the frontend using libraries and frameworks like react to upload and display search results along with performance analysis.
-    2.Robust queries
+    2.Robust Queries
         Adding the advanced searching capabilities to the application like fuzzy matching search.
     3.Privacy and Security
         Securing the api through various methods of authentication and authorization.
-    4.Cloud integration
+    4.Cloud Integration
         Using a cloud based database that can store and process large amounts of data more efficiently.
+    5.Robust Log Format analysis
+        Can analyse various other log formats such as XML, apache etc.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------  
