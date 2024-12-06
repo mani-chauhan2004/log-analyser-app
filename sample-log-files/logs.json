@@ -1,0 +1,46 @@
+[
+
+    {
+        "type": "INFO",
+        "timestamp": "2024-12-03T10:15:30Z",
+        "message": "Application started successfully.",
+        "source": "app1"
+    },
+    {
+        "type": "ERROR",
+        "timestamp": "2024-12-03T10:16:30Z",
+        "message": "Failed to connect to the database.",
+        "source": "app1"
+    },
+    {
+        "type": "WARNING",
+        "timestamp": "2024-12-03T10:17:45Z",
+        "message": "Disk space running low.",
+        "source": "server1"
+    },
+    {
+        "type": "DEBUG",
+        "timestamp": "2024-12-03T10:18:00Z",
+        "message": "User login attempt received.",
+        "source": "app2"
+    },
+    {
+        "type": "INFO",
+        "timestamp": "2024-12-03T10:19:15Z",
+        "message": "Background job started.",
+        "source": "app2"
+    },
+    {
+        "type": "ERROR",
+        "timestamp": "2024-12-03T10:20:00Z",
+        "message": "Timeout while connecting to external API.",
+        "source": "app3"
+    },
+    {
+        "type": "CUSTOM",
+        "timestamp": "2024-12-03T10:21:30Z",
+        "message": "Custom log entry for debugging feature X.",
+        "source": "customLogger"
+    }
+]
+

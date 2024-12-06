@@ -1,0 +1,3 @@
+timestamp,type,message
+2024-12-03T10:15:30Z,INFO,Application started successfully.
+2024-12-03T10:16:15Z,ERROR,Database connection failed.
