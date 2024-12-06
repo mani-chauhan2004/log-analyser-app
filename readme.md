@@ -21,6 +21,17 @@ The **Log Analyzer App** processes, validates, and analyzes logs from various fi
    ```bash
    git clone https://github.com/mani-chauhan2004/log-analyser-app.git
 
+2. Use terminal to navigate to the log-analyzer-app folder:
+    ```bash
+   cd log-analyzer-app
+
+3. Install the required dependencies(refer to package.json for more information):
+    ```bash
+   npm install
+
+4. Start the app:
+    ```bash
+   nodemon app.js --ignore uploads/
 
 ## API Reference
 
