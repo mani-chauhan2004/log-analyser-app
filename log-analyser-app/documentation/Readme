@@ -10,7 +10,7 @@ Setup Instructions
     4.Postman: Recommended for API testing.
 
 Installation
-    1.Clone the repository: git clone https://github.com/mani-chauhan2004/log-analyzer-app.git
+    1.Clone the repository: git clone https://github.com/mani-chauhan2004/log-analyser-app
     2.Use terminal to navigate to the log-analyzer-app folder: cd log-analyzer-app
     3.Install the required dependencies(refer to package.json for more information): npm install
     4.Start the app: nodemon app.js --ignore uploads/
@@ -65,9 +65,9 @@ API Refrence
                 Response: 
                     {
                         "message": "Logs processed successfully.",
-                        "totalProcessed": 50,
-                        "validLogs": 45,
-                        "invalidLogs": 5
+                        "totalProcessed": 70,
+                        "validLogs": 55,
+                        "invalidLogs": 15
                     }  
 
 System Design  
