@@ -39,6 +39,7 @@ The **Log Analyzer App** processes, validates, and analyzes logs from various fi
   ELASTICSEARCH_URI=<ElasticSearch running port(Default: http://localhost:9200)>
   NODE_ENV=<Any(eg. development/ production)>
   MONGO_URI=<Your mongoDB connection string here>
+  ```
 
 ## API Reference
 
